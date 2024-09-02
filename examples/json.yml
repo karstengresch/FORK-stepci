@@ -5,7 +5,7 @@ tests:
     steps:
       - name: GET request
         http:
-          url: https://jsonplaceholder.typicode.com/posts/1
+          url: https://rest-villains-petstore.apps.ocp4.devworkshop.cc/api/villains/1
           method: GET
           check:
             jsonpath:
